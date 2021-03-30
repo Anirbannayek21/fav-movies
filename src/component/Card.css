@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+
+.card{
+    margin: 2rem auto;
+    box-shadow: 5px 5px 20px 10px #a361617c;
+}
+
+img{
+    height: 100px im !important;
+}
+
+.title{
+   width: 100vw;
+}
