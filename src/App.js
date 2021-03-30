@@ -33,12 +33,13 @@ function App() {
         </div>
       </div> */}
 
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           {sdata.map((val) => {
             return (
               <div className="col-sm">
                 <Cards
+                  key={val.id}
                   img={val.img}
                   name={val.name}
                   site={val.site}

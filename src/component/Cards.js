@@ -11,7 +11,7 @@ function Cards(props) {
                 <div className="card-body">
                     <h5 className="card-title">{props.name}</h5>
                     <p className="card-text">{props.site}</p>
-                    <a href={props.link} className="btn btn-primary" target="_blank">watch now</a>
+                    <a href={props.link} className="btn btn-primary" target="_blank" rel="noreferrer">watch now</a>
                 </div>
         </div>
     )
